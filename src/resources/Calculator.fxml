@@ -7,102 +7,119 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="545.0" prefWidth="431.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CalculatorController">
-   <children>
-      <TextField fx:id="tfDisplay" alignment="BOTTOM_RIGHT" editable="false" focusTraversable="false" layoutX="50.0" layoutY="73.0" prefHeight="92.0" prefWidth="322.0" promptText="0">
-         <font>
-            <Font size="34.0" />
-         </font>
-      </TextField>
-      <Button fx:id="btn7" focusTraversable="false" layoutX="50.0" layoutY="258.0" mnemonicParsing="false" onAction="#btn7" prefHeight="58.0" prefWidth="81.0" text="7">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btn8" focusTraversable="false" layoutX="132.0" layoutY="258.0" mnemonicParsing="false" onAction="#btn8" prefHeight="58.0" prefWidth="81.0" text="8">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btn9" focusTraversable="false" layoutX="214.0" layoutY="258.0" mnemonicParsing="false" onAction="#btn9" prefHeight="58.0" prefWidth="81.0" text="9">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btnDivide" blendMode="EXCLUSION" focusTraversable="false" layoutX="296.0" layoutY="258.0" mnemonicParsing="false" onAction="#divide" prefHeight="58.0" prefWidth="81.0" text="/">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btn4" focusTraversable="false" layoutX="50.0" layoutY="320.0" mnemonicParsing="false" onAction="#btn4" prefHeight="58.0" prefWidth="81.0" text="4">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btn5" focusTraversable="false" layoutX="132.0" layoutY="320.0" mnemonicParsing="false" onAction="#btn5" prefHeight="58.0" prefWidth="81.0" text="5">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btn6" focusTraversable="false" layoutX="214.0" layoutY="320.0" mnemonicParsing="false" onAction="#btn6" prefHeight="58.0" prefWidth="81.0" text="6">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btnMultiply" blendMode="EXCLUSION" focusTraversable="false" layoutX="296.0" layoutY="320.0" mnemonicParsing="false" onAction="#multiply" prefHeight="58.0" prefWidth="81.0" text="*">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btn1" focusTraversable="false" layoutX="50.0" layoutY="382.0" mnemonicParsing="false" onAction="#btn1" prefHeight="58.0" prefWidth="81.0" text="1">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btn2" focusTraversable="false" layoutX="132.0" layoutY="382.0" mnemonicParsing="false" onAction="#btn2" prefHeight="58.0" prefWidth="81.0" text="2">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btn3" focusTraversable="false" layoutX="214.0" layoutY="382.0" mnemonicParsing="false" onAction="#btn3" prefHeight="58.0" prefWidth="81.0" text="3">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btnSubtract" blendMode="EXCLUSION" focusTraversable="false" layoutX="296.0" layoutY="382.0" mnemonicParsing="false" onAction="#subtract" prefHeight="58.0" prefWidth="81.0" text="-">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btnDecimal" focusTraversable="false" layoutX="50.0" layoutY="444.0" mnemonicParsing="false" onAction="#decimal" prefHeight="58.0" prefWidth="81.0" text=".">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btn0" focusTraversable="false" layoutX="132.0" layoutY="444.0" mnemonicParsing="false" onAction="#btn0" prefHeight="58.0" prefWidth="81.0" text="0">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btnEquals" focusTraversable="false" layoutX="214.0" layoutY="444.0" mnemonicParsing="false" onAction="#equals" prefHeight="58.0" prefWidth="81.0" text="=">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btnAdd" blendMode="EXCLUSION" focusTraversable="false" layoutX="296.0" layoutY="444.0" mnemonicParsing="false" onAction="#add" prefHeight="58.0" prefWidth="81.0" text="+">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Button fx:id="btnClear" focusTraversable="false" layoutX="296.0" layoutY="183.0" mnemonicParsing="false" onAction="#clear" prefHeight="58.0" prefWidth="81.0" text="C">
-         <font>
-            <Font name="System Bold" size="29.0" />
-         </font>
-      </Button>
-      <Label layoutX="128.0" layoutY="23.0" prefHeight="33.0" prefWidth="174.0" text="Calculator V1.0">
-         <font>
-            <Font size="20.0" />
-         </font>
-      </Label>
-   </children>
+<AnchorPane prefHeight="545.0" prefWidth="431.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.CalculatorController">
+   <TextField fx:id="tfDisplay" alignment="BOTTOM_RIGHT" editable="false" focusTraversable="false" layoutX="50.0"
+              layoutY="73.0" prefHeight="92.0" prefWidth="322.0" promptText="0">
+      <font>
+         <Font size="34.0"/>
+      </font>
+   </TextField>
+   <Button focusTraversable="false" layoutX="50.0" layoutY="258.0" mnemonicParsing="false" onAction="#btn7"
+           prefHeight="58.0" prefWidth="81.0" text="7">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button focusTraversable="false" layoutX="132.0" layoutY="258.0" mnemonicParsing="false"
+           onAction="#btn8" prefHeight="58.0" prefWidth="81.0" text="8">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button focusTraversable="false" layoutX="214.0" layoutY="258.0" mnemonicParsing="false"
+           onAction="#btn9" prefHeight="58.0" prefWidth="81.0" text="9">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button blendMode="EXCLUSION" focusTraversable="false" layoutX="296.0" layoutY="258.0"
+           mnemonicParsing="false" onAction="#divide" prefHeight="58.0" prefWidth="81.0" text="/">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button focusTraversable="false" layoutX="50.0" layoutY="320.0" mnemonicParsing="false" onAction="#btn4"
+           prefHeight="58.0" prefWidth="81.0" text="4">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button focusTraversable="false" layoutX="132.0" layoutY="320.0" mnemonicParsing="false"
+           onAction="#btn5" prefHeight="58.0" prefWidth="81.0" text="5">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button focusTraversable="false" layoutX="214.0" layoutY="320.0" mnemonicParsing="false"
+           onAction="#btn6" prefHeight="58.0" prefWidth="81.0" text="6">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button blendMode="EXCLUSION" focusTraversable="false" layoutX="296.0" layoutY="320.0"
+           mnemonicParsing="false" onAction="#multiply" prefHeight="58.0" prefWidth="81.0" text="*">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button focusTraversable="false" layoutX="50.0" layoutY="382.0" mnemonicParsing="false" onAction="#btn1"
+           prefHeight="58.0" prefWidth="81.0" text="1">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button focusTraversable="false" layoutX="132.0" layoutY="382.0" mnemonicParsing="false"
+           onAction="#btn2" prefHeight="58.0" prefWidth="81.0" text="2">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button focusTraversable="false" layoutX="214.0" layoutY="382.0" mnemonicParsing="false"
+           onAction="#btn3" prefHeight="58.0" prefWidth="81.0" text="3">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button blendMode="EXCLUSION" focusTraversable="false" layoutX="296.0" layoutY="382.0"
+           mnemonicParsing="false" onAction="#subtract" prefHeight="58.0" prefWidth="81.0" text="-">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button focusTraversable="false" layoutX="50.0" layoutY="444.0" mnemonicParsing="false"
+           onAction="#decimal" prefHeight="58.0" prefWidth="81.0" text=".">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button focusTraversable="false" layoutX="132.0" layoutY="444.0" mnemonicParsing="false"
+           onAction="#btn0" prefHeight="58.0" prefWidth="81.0" text="0">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button focusTraversable="false" layoutX="214.0" layoutY="444.0" mnemonicParsing="false"
+           onAction="#equals" prefHeight="58.0" prefWidth="81.0" text="=">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button blendMode="EXCLUSION" focusTraversable="false" layoutX="296.0" layoutY="444.0"
+           mnemonicParsing="false" onAction="#add" prefHeight="58.0" prefWidth="81.0" text="+">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Button focusTraversable="false" layoutX="296.0" layoutY="183.0" mnemonicParsing="false"
+           onAction="#clear" prefHeight="58.0" prefWidth="81.0" text="C">
+      <font>
+         <Font name="System Bold" size="29.0"/>
+      </font>
+   </Button>
+   <Label layoutX="128.0" layoutY="23.0" prefHeight="33.0" prefWidth="174.0" text="Calculator V1.0">
+      <font>
+         <Font size="20.0"/>
+      </font>
+   </Label>
 </AnchorPane>

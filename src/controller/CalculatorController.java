@@ -1,62 +1,9 @@
 package controller;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
 public class CalculatorController {
-    @FXML
-    private Button btn0;
-
-    @FXML
-    private Button btn1;
-
-    @FXML
-    private Button btn2;
-
-    @FXML
-    private Button btn3;
-
-    @FXML
-    private Button btn4;
-
-    @FXML
-    private Button btn5;
-
-    @FXML
-    private Button btn6;
-
-    @FXML
-    private Button btn7;
-
-    @FXML
-    private Button btn8;
-
-    @FXML
-    private Button btn9;
-
-    @FXML
-    private Button btnAdd;
-
-    @FXML
-    private Button btnClear;
-
-    @FXML
-    private Button btnDecimal;
-
-    @FXML
-    private Button btnDivide;
-
-    @FXML
-    private Button btnEquals;
-
-    @FXML
-    private Button btnMultiply;
-
-    @FXML
-    private Button btnSubtract;
-
     @FXML
     private TextField tfDisplay;
     private int storedValue = 0;
@@ -139,7 +86,7 @@ public class CalculatorController {
 
     @FXML
     void divide() {
-
+        //code goes here
     }
 
     @FXML
@@ -147,7 +94,7 @@ public class CalculatorController {
         if(tfDisplay.getText().isEmpty()){
             tfDisplay.setText(String.valueOf(storedValue));
         }else{
-            int sum = 0;
+            int sum ;
             switch(mathOperation){
                 case '+':
                     sum = storedValue + Integer.parseInt(tfDisplay.getText());
@@ -170,12 +117,12 @@ public class CalculatorController {
     }
 
     @FXML
-    void multiply(ActionEvent event) {
-
+    void multiply() {
+        //code goes here
     }
 
     @FXML
-    void subtract(ActionEvent event) {
-
+    void subtract() {
+        //code goes here
     }
 }
